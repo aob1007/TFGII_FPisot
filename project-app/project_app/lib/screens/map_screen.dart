@@ -17,6 +17,7 @@ import 'package:project_app/widgets/widgets.dart';
 /// - Mostrar el mapa con la ruta del tour.
 /// - Añadir puntos de interés (POIs) al tour.
 /// - Unirse al tour.
+/// - Manejar el estado del GPS y la ubicación en tiempo real.
 class MapScreen extends StatefulWidget {
   /// Datos del tour a ser mostrados en el mapa.
   final EcoCityTour tour;
