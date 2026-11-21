@@ -65,7 +65,7 @@ void main() {
       await tester.tap(find.byIcon(Icons.clear));
       await tester.pumpAndSettle();
 
-      // Verifica que el buscador se haya cerrado completamente
+      // Verifica que el buscador se haya cerrado
       expect(find.byType(SearchDestinationDelegate), findsNothing);
     });
 
